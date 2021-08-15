@@ -1,10 +1,11 @@
 var e=Object.defineProperty,t=Object.defineProperties,o=Object.getOwnPropertyDescriptors,r=Object.getOwnPropertySymbols,n=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable,i=(t,o,r)=>o in t?e(t,o,{enumerable:!0,configurable:!0,writable:!0,value:r}):t[o]=r;import{s,m as c,E as l,u as d,a as p,b as u,R as m,A as b,Q as f,c as x,d as g}from"./vendor.3e441825.js";const y=s.main`
-  padding: 48px 0;
+  box-sizing: border-box;
+  padding: 48px 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 `,h=s.h3`
@@ -15,7 +16,7 @@ var e=Object.defineProperty,t=Object.defineProperties,o=Object.getOwnPropertyDes
   margin-bottom: 24px;
 `,w=s.input`
   box-sizing: border-box;
-  width: 400px;
+  width: 300px;
   margin-bottom: 14px;
   height: 40px;
   font-size: 18px;
@@ -31,7 +32,7 @@ var e=Object.defineProperty,t=Object.defineProperties,o=Object.getOwnPropertyDes
   }
 `,E=s.button`
   box-sizing: border-box;
-  width: 400px;
+  width: 300px;
   height: 40px;
   border-radius: 8px;
   outline: none;
@@ -40,7 +41,7 @@ var e=Object.defineProperty,t=Object.defineProperties,o=Object.getOwnPropertyDes
   cursor: pointer;
   font-size: 18px;
 `,O=s.ul`
-  width: 400px;
+  width: 250px;
   margin-top: 24px;
   list-style: circle;
 `,j=s(c.li)`
